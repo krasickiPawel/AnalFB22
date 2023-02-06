@@ -28,9 +28,9 @@ class StatisticsInterface:
         res = self._statistics_obj.get_res_dict()
         return gcl(res, self._n_most_common)
 
-path1 = r"C:\Users\Paweł\Documents\_studia\development\aplikacje\AnalFB\inbox\3aakterynascenezizni_p6c5ofjwcq"
-path2 = r"C:\Users\Paweł\Documents\_studia\development\aplikacje\AnalFB\inbox"
-path3 = r"C:\Users\Paweł\Documents\_studia\development\aplikacje\AnalFB\inbox\weronikagalwas_l7kjbhwrva"
+
+path3 = "censored"
+
 
 if __name__ == '__main__':
     stat = StatisticsInterface.from_dir(ConversationStatistics, path3)

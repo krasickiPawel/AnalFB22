@@ -215,7 +215,7 @@ button_select_inbox = tk.Button(
     fg=settings.COLORS.get("fg"),
     font=settings.FONTS.get("button"),
     command=Thread(target=select_inbox).start,
-    borderwidth=0,
+    # borderwidth=0,
     activebackground=settings.COLORS.get("bg")
 )
 button_select_inbox.place(relx=0, rely=0.05, relwidth=1, relheight=0.1)
@@ -265,7 +265,7 @@ button_conv = tk.Button(
     fg=settings.COLORS.get("fg"),
     font=settings.FONTS.get("button"),
     command=calculate_conversation_command,
-    borderwidth=0,
+    # borderwidth=0,
     activebackground=settings.COLORS.get("bg")
 )
 button_conv.place(relx=0, rely=0.1, relwidth=1, relheight=0.1)
@@ -279,7 +279,7 @@ button_full_msgr = tk.Button(
     fg=settings.COLORS.get("fg"),
     font=settings.FONTS.get("button"),
     command=calculate_full_messenger_command,
-    borderwidth=0,
+    # borderwidth=0,
     activebackground=settings.COLORS.get("bg")
 )
 button_full_msgr.place(relx=0, rely=0.2, relwidth=1, relheight=0.1)
